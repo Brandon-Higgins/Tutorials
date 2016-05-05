@@ -1,0 +1,26 @@
+public class Test {             // Important line that declares a class named Test, will go through at a later lesson
+    public static void main(String [] args) {       // Important line that declares main method, will go throug at a later lesson
+
+        System.out.println("Hello world");      // Will output Hello world to the screen
+
+        int a = 5;      // Declares an integer named a to be equal to 5
+        int b = 6;      // Declares an integer named b to be equal to 6
+                        // An integer is a value that is a WHOLE number ie 1, 15, -12
+        double c = 3.14;    // Declares a double named c equal to 3.14
+                            // A double is a number that had a decimal ie 3.14, -1.2
+        double d = 3;       // Creates a double that is equal to 3.0. NOT 3!!!
+        
+        System.out.println("The value of A is " +a);
+        System.out.println("The value of B is " +b);
+        System.out.println("The value of C is " +c);
+        System.out.println("The value of D is " +d);
+        
+        int e = a+b;            // Creates an integer 'e' equal to a + b, in this case will equal 11
+        
+        System.out.println("The value of E is " +e);
+        
+        double f = c + d;
+        System.out.println("The value of F is " +f);
+
+    }
+}
