@@ -1,0 +1,20 @@
+public class DoWhileLoop {
+    public static void main(String [] args) {
+
+        int x = 0;
+
+        do {
+            x++;
+            System.out.println(x);
+        }
+        while(x<10);
+        
+        /* This code first declares x to be equal to 0
+         * It will then take whatever x was and add 1 to it
+         * It will then output that number
+         * After it will check if x is less than 10
+         * If x is less than 10 the program will repeat
+         */
+
+    }
+}
