@@ -1,1 +1,1 @@
-In this Unit I will be going over data types, scanner, if statements and looping.
+In this Unit I will be going over data types, arithmetic operations, scanner, if statements and looping.
