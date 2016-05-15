@@ -1,4 +1,4 @@
 The main assignment of this unit is to write a program that takes in a number between 1 and 1000 and checks if it is a prime number.
-If the number they have entered is NOT between 1 and 1000 you must tell them that, and re ask for the number.
+If the number they have entered is NOT between 2 and 1000 you must tell them that, and re ask for the number.
 
 HINT: Look into the mod command
