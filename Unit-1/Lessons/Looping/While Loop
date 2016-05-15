@@ -1,0 +1,18 @@
+public class WhileLoop {
+    public static void main(String [] args) {
+
+        int x = 0;
+
+        while (x <10) {
+            x++;                    // This basically means take what x is then add 1 to it
+            System.out.println(x);
+        }
+        /* This code first declares x to equal 0
+         * It will then check to see if x is less than 10
+         * if x is less than 10 it will take what x used to be and add 1 to that
+         * It will then display that number
+         * This is repeated until x is greater than 10
+         */
+       
+    }
+}
