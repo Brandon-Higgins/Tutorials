@@ -1,0 +1,8 @@
+In Java we have 3 types of loops, the while loop, do while loop and for loop. Each type of loop is different, and has it's own uses. To make things simpler I will us an analogy.
+Say you're working at a job as a soup stirrer. You're job is to stir soup until there are no lumps left. 
+
+As soon as you get the soup you check to see if there are lumps in it. If there are lumps in it, you stir until there are none. This is an example of a while loop. In a while loop you first check to see if the condition is true, if it is, you loop it. In this case the condition was if there is lumps, stir, if there are no lumps, stop stirring.
+
+Next, instead of checking to see if there are lumps, you just start stirring immediately then check after you're done stirring. This is an example of a do while loop, which checks the condition after the loop body is finished.
+
+Finally, instead of checking to see if there are lumps, you decide to just stir 20 times and then you're finished. This is an example of a for loop.
