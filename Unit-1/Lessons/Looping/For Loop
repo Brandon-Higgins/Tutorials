@@ -1,0 +1,15 @@
+public class ForLoop {
+    public static void main(String [] args) {
+
+        for (int i = 0; i <11; i++) {
+            System.out.println(i);
+        }
+        
+        /* This program uses a for loop to count to 10
+         * Inside the for loop the variable i is declared and set equal to 0
+         * The program then loops until 1 is equal to 11
+         * Every time it loops 1 is added to the variable i
+         * Because of this a for loop can be considered a counting loop
+         */
+    }
+}
