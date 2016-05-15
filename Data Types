@@ -1,0 +1,44 @@
+public class DataTypes {
+    public static void main(String[]args) {
+
+        /* In this lesson we will be learing about DATA TYPES!!!
+         * In Java there are 8 primitive data types, which are:
+         * byte, short, int, long, float, double, boolean and char
+         * You will mainly only be using int, double, boolean and char
+         */
+
+        int integerA = 5;       // An int is a number between -2^31 and 2^31-1, in other words, pretty large
+                                // An int is a WHOLE NUMBER, meaning that it cannot be a decimal
+                                // Examples of integers are -10,0,12 etc... */
+                               
+        double doubleB = 3.14;   // A double is a DECIMAL NUMBER...that's really all you need to know
+                                // Examples of doubles include -10.24, 3.0 and 123.234
+                                
+        boolean booleanC = true;    // A boolean is a TRUE OR FALSE value
+                                    // Examples include: true or false...that's it
+                               
+        char charD = 'D';           // A char is a SINGLE CHARACTER
+                                    // Examples include 'A' 'b' ' ' and every character on the keyboard
+                                    // Char also uses ascii values, so char 65 = 'A'
+        char A = 65;                // Will print out A
+        
+        /* This last one isn't exactly a primitive data type, and it's String
+         * String is technically an OBJECT, but for beginner assignments, you're going to have to use it
+         * String is similar to char, but instead of just one character, it's multiple
+         */
+        
+        String stringA = "Brandon";     // Declaring a string is similar to regular data types
+                                        // Instead of regular data types however the first letter in String is capitalised
+                                        // Also instead of single quotation marks, you use double
+                                        
+        System.out.println(integerA);
+        System.out.println(doubleB);
+        System.out.println(booleanC);
+        System.out.println(charD);
+        System.out.println(A);
+        System.out.println(stringA);
+
+        
+
+    }
+}
