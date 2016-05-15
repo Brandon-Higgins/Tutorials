@@ -1,0 +1,77 @@
+import java.util.*;
+
+public class IfStatements {
+    public static void main(String[]args) {
+
+        /* An if statement is a fundamental part of programming
+         * It basically checks for a condition, and then does something if that condition is met
+         */
+
+        System.out.println("Please enter the number 1");
+        Scanner numScanner = new Scanner(System.in);
+        int num = numScanner.nextInt();
+
+        if (num==1){
+            System.out.println("Thank you for entering 1");
+        }
+        else {
+            System.out.println("You did NOT enter 1");
+        }
+
+        /* When using If statements it is important to keep a few things in mind
+         * 1. The condition you wish to meet must be inside brackets
+         * 2. For If statements you must use special signs, for example '=' is replaced with'=='
+         * 3. You should put curly braces around the output once a condition is met
+         */
+
+        System.out.println("Please enter a number between 1 and 3");
+        int numTwo = numScanner.nextInt();
+
+        if (numTwo == 1) {
+            System.out.println("You entered 1");
+        }
+        else if (numTwo == 2) {
+            System.out.println("You entered 2");
+        }
+        else if (numTwo == 3) {            
+            System.out.println("You entered 3");
+        }
+        else {
+            System.out.println("You did NOT enter a number between 1 and 3");
+        }
+        // This is an exmaple of an else if statement, it basically does what you'd expect it to
+
+        System.out.println("Please enter 1 OR 2");
+        int numThree = numScanner.nextInt();
+
+        if (numThree == 1 || numThree ==2) {
+            System.out.println("You have entered either 1 or 2");
+        }
+        else {
+            System.out.println("You have NOT entered either 1 or 2");
+        }
+
+        /* This if statement is a little different from the ones before it
+         * Instead of stopping at one condition we go to 2 conditions, seperated by this character '||'
+         * That character basically means OR and checks if the int numThree is equal to 1 OR 2
+         * If either condition is met, the statement will follow
+         */
+
+        System.out.println("Please enter the number 4");
+        int numFour = numScanner.nextInt();
+        System.out.println("Please enter the number 6");
+        int numFive = numScanner.nextInt();
+
+        if (numFour == 4 && numFive == 6) {
+            System.out.println("You have entered the numbers 4 and 6");
+        }
+        else {
+            System.out.println("You have NOT entered 4 and 6");
+        }
+        
+        /* In this if statement there are 2 conditions with a '&&' symbol between them
+         * This checks if numFour is equal to 4 AND if numFive is equal to 6
+         * If both those conditions are met, then the statement follows
+         */
+    }
+}	
