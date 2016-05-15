@@ -1,0 +1,49 @@
+import java.util.*;
+
+public class LearningScanner{
+    public static void main(String [] args){
+        
+        /* Scanner is a very useful tool in Java
+         * It essentially allows the program to read what is being input on the keyboard
+         * The first step in using Scanner is in line 1 of this code
+         * Whenever you use Scanner it is important to import the this java.util.*, without it you will get an error
+         * The syntax for using scanner is shown below
+         */
+        
+
+        System.out.println("Please enter a number...");
+        
+        /* Whenever you use Scanner you always start with Scanner(with a capital S)
+         * After that you name your Scanner, for this I chose the name numScanner, but it can be whatever you want
+         * next is new Scanner(System.in) it's not important to know what this means quite yet, but all you need to know is that you need it
+         */
+        Scanner numScanner = new Scanner(System.in);
+        
+        /* Next is declaring a variable, refer to the lesson DATA TYPES if you need to
+         * Once you've declared you're variable as normal you set that equal to the name of your Scanner.nextDataType();
+         * for example my Scanner was called numScanner, and my Data type was int, so my line becomes numScanner.nextInt();
+         * Capitilization here is important, next has no capitals but the data type is always capitilized, for example
+         * numScanner.nextInt();    numScanner.nextDouble();    numScanner.nextBoolean(); etc...
+         */
+        int number = numScanner.nextInt();
+        
+        System.out.println("Please enter another number");
+        int numberTwo = numScanner.nextInt();
+        
+        int numberThree = number+numberTwo;
+        
+        System.out.println("The sum of the 2 numbers is " +numberThree);
+        
+        /* You can also make a Scanner for a String
+         * The syntax for this is as follows
+         */
+        
+        System.out.println("Please enter your name");
+        Scanner stringScanner = new Scanner(System.in);
+        String name = stringScanner.nextLine();
+        
+        System.out.println("Hello " +name+ "!");
+        
+        
+    }
+}
