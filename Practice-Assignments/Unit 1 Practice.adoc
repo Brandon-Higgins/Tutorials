@@ -1,3 +1,5 @@
 Examples of practice problems from Unit 1
 
-1. 
+1. Write a program that prompts the user for their name, then displays it
+
+2. Write a progam that takes in a number, then tells the user whether it is odd or even
