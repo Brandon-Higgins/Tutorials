@@ -1,6 +1,11 @@
 public class voidMethods{
     public static void main(String[]args){
 
+        /* Methods are very useful in very large programs
+         * The help keep your code organized, and keep it readible for other people
+         * A method is essentially a block of code that is not in main that when called in main will do something
+         */
+        
         System.out.println("Hello World!");
 
         // Before going to line 6 jump to line 13
