@@ -1,0 +1,9 @@
+Your main assignment is to make a Tic Tacoma Toe program. You may have the GUI set up in any fashion, as long as the code is functional. For this code you can go two ways
+
+1. You can have a user picked X and a user picked O
+
+2. You can have a user picked X and computer generated O
+
+3. Or you can do both!
+
+You must have a final win condition, but intelligent AI is not necessary.
