@@ -3,3 +3,9 @@ Examples of practice problems from Unit 1
 1. Write a program that prompts the user for their name, then displays it
 
 2. Write a progam that takes in a number, then tells the user whether it is odd or even
+
+3. Write a program that takes in an integer, then converts it into a char
+
+4. Write a program that takes in a double, then tells the user if it is between the values 30 and 50
+
+5. Write a program that takes in a number, tells the user if it is between 0 and 100 or between 200 and 300. If it is NOT between these values ask them again until that value is reached.  
