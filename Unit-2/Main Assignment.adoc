@@ -7,3 +7,5 @@ Your main assignment is to make a Tic Tacoma Toe program. You may have the GUI s
 3. Or you can do both!
 
 You must have a final win condition, but intelligent AI is not necessary.
+
+Knowledge of methods will be very helpful in this program but is not necessary. My suggestion however is to look at them, located in Unit 3 Lessons.
