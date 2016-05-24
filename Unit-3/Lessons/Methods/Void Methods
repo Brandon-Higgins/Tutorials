@@ -1,0 +1,24 @@
+public class voidMethods{
+    public static void main(String[]args){
+
+        System.out.println("Hello World!");
+
+        // Before going to line 6 jump to line 13
+        greetUser();        // This line CALLS the method, which mens it basically tells main to run what that method does
+                            // Without this call statement, the method will not run
+                            // For example methodTwo will NOT run in this program
+
+    }
+    public static void greetUser(){         // this line is the method creation line
+        // Here you are making a public static method with return type void
+        // The name of the method is greetUser
+        // The two empty brackets signify that it takes in no values from main
+        // Methods are surrounded in curly brackets, to identify where it starts, and where it stops
+        System.out.println("Hello, my name is Brandon!");
+        System.out.println("Thank you for using my tutorials!");
+    }
+
+    public static void methodTwo(){
+        System.out.println("This method will not print anything");
+    }
+}
