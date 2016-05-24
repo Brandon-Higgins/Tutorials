@@ -1,0 +1,6 @@
+Unit 3 will go over the following
+
+1. Methods in programs
+
+2. Object Oriented Programming(OOP)
+This is a very large concept with many small lessons inside
