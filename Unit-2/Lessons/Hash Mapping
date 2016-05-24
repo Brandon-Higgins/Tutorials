@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+/**Copyright (c) Brandon Higgins 2016
+All Rights Reserved
+Use of this code is strictly prohibited without use of the above copyright claim 
+ */
+
+public class Hash {
+	public static void main (String [] args) {
+		
+		System.out.println("Who's data would you like to access?");
+		Scanner newScanner = new Scanner(System.in);
+		String name = newScanner.nextLine();
+		
+		HashMap<String, Integer> points = new HashMap<String, Integer>();
+		points.put("Dave", 10);
+		points.put("Mark", 20);
+		points.put("Tim", 30);
+		
+		System.out.println(points.get(name));
+	}
+}
