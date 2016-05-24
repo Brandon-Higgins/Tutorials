@@ -7,3 +7,5 @@ Unit 2 will go over the following
 3. LinkedLists 
 
 4. Hashmapping
+
+5. Exception Handling
