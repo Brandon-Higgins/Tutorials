@@ -1,0 +1,9 @@
+Unit 2 will go over the following
+
+1. Arrays and array methods
+
+2. ArrayLists
+
+3. LinkedLists 
+
+4. Hashmapping
