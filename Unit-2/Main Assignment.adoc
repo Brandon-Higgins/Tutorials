@@ -1,4 +1,4 @@
-**# Assignment One**
+**Assignment One**
 **Tic Tac Toe**
 
 Your main assignment is to make a Tic Tac Toe program. You may have the GUI set up in any fashion, as long as the code is functional. For this code you can go two ways
