@@ -1,5 +1,5 @@
-#Assignment One
-##Tic Tac Toe
+**Assignment One**
+**Tic Tac Toe**
 
 Your main assignment is to make a Tic Tac Toe program. You may have the GUI set up in any fashion, as long as the code is functional. For this code you can go two ways
 
@@ -13,9 +13,9 @@ You must have a final win condition, but intelligent AI is not necessary.
 
 Knowledge of methods will be very helpful in this program but is not necessary. My suggestion however is to look at them, located in Unit 3 Lessons.
 
-##OR You could choose
+*OR You could choose*
 
-#Assignment Two
-## Modified Minesweeper
+**Assignment Two**
+** Modified Minesweeper**
 
 Your other assignment is to create a modified minesweeper program. This program will have a 5x5 board which contains 5 randomly generated Mines. The user will be asked to pick a spot on the board. The program will then tell the user if they have landed on a mine, if they are 1 space away from a mine, or if they are not close to a mine.
